@@ -124,7 +124,6 @@ class PlaylistConvert:
     def toVlc(self):
         if PlaylistConvert.mpcPlaylist != '':
             locations = self.getLocations()
-            print locations
             self.writeLocations(locations)
                 
         else:
