@@ -53,7 +53,7 @@ class PlaylistConvert:
         
     def getMpcFile(self):
         PlaylistConvert.mpcPlaylist = tkFileDialog.askopenfilename(title = 'Select MPC-HC Playlist',
-                                                                   filetypes = [("Mp3 Files", "*.mpcpl")])
+                                                                   filetypes = [("Mpc Files", "*.mpcpl")])
 
         if PlaylistConvert.mpcPlaylist != '':
             self.gotBtn = Label(self.root, width = 10, fg = 'light green', text = 'Got it', anchor = 'w')
